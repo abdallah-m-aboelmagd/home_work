@@ -1,0 +1,10 @@
+/*How do you concatenate strings in Dart? Write an example using two variables:
+firstName and lastName.*/
+void main()
+{
+  String firstName = 'AbdAllah';
+  String lastName = 'Mohamed';
+  String fullname = firstName + " " + lastName;
+  print(fullname);
+}
+
