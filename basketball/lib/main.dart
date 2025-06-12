@@ -5,6 +5,8 @@ void main() {
 }
 
 class BasketballPointCounter extends StatefulWidget {
+  const BasketballPointCounter({super.key});
+
   @override
   State<BasketballPointCounter> createState() => _BasketballPointCounterState();
 }
